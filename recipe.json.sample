@@ -1,0 +1,9 @@
+[
+  {"acts":[
+    {"type":"boost","ps":0.010,"ta":0.008,"ea":0.006,"investI":0.050,"policy":"counterintel","focus":"industry"}
+  ]},
+  {"acts":[
+    {"type":"trade","to":"1","cat":"G","vol":0.08},
+    {"type":"boost","ps":0.008,"ta":0.010,"ea":0.006,"investI":0.030}
+  ]}
+]

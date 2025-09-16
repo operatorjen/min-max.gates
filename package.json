@@ -1,12 +1,11 @@
 {
-  "name": "min-max.liminal.gates",
+  "name": "min-max.gates",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "test": "node solver.js"
+    "start": "node index.js"
   },
   "author": "operatorjen",
   "license": "AGPL-3.0",

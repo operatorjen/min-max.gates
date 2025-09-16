@@ -1,0 +1,50 @@
+{
+  "globals": [
+  ],
+  "local_markets": [
+  ],
+  "trade": [
+  ],
+  "diplomacy": [
+  ],
+  "alliances": [
+  ],
+  "conflict": [
+  ],
+  "policy": [
+  ],
+  "currency": [
+  ],
+  "energy": [
+  ],
+  "metals": [
+  ],
+  "food": [
+  ],
+  "housing": [
+  ],
+  "labor": [
+  ],
+  "finance": [
+  ],
+  "tech": [
+  ],
+  "disaster": [
+  ],
+  "migration": [
+  ],
+  "sanctions": [
+  ],
+  "liquidity": [
+  ],
+  "debt": [
+  ],
+  "default": [
+  ],
+  "rally": [
+  ],
+  "crash": [
+  ],
+  "generic": [  
+  ]
+}

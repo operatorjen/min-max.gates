@@ -1,0 +1,77 @@
+{
+  "scoreTTL": 604800,
+  "regimes": { "min": 2, "max": 6 },
+  "globalsInit": { "GG": 0, "IR": 0.02, "RA": 0, "ES": 0, "TS": 0, "CS": 0, "substeps": 2, "turnYears": 1, "volMul": 0.95 },
+  "filters": { "minPS": 0.05, "minWealth": 0.05, "minPopLand": 0.01 },
+  "conflict": {
+    "coefDeficit": 0.012,
+    "coefCI": 0.008,
+    "coefPS": 0.010,
+    "pMax": 0.08,
+    "dLSMaxFrac": 0.03,
+    "dLSFracOfTarget": 0.12,
+    "psLossAttacker": 0.02,
+    "psLossDefender": 0.05,
+    "invHitAttacker": 0.94,
+    "invHitDefender": 0.86,
+    "raBump": 0.02,
+    "logMax": 400
+  },
+  "alliance": {
+    "base": 0.05,
+    "ciWeight": 0.45,
+    "τDelta": 0.01,
+    "τMin": 0.02,
+    "psBump": 0.008
+  },
+  "migration": {
+    "srcPS": 0.34,
+    "dstPS": 0.56,
+    "flowK": 0.018,
+    "eaLoss": 0.02,
+    "eaGain": 0.02
+  },
+  "degrade": {
+    "iInvStep": 0.01,
+    "taOpenK": 0.008,
+    "taSelfK": 0.004,
+    "psDecay": 0.98,
+    "psTarget": 0.6,
+    "psMix": 0.02
+  },
+  "typeBands": { "N": 0.2, "D": 0.5, "A": 0.8 },
+  "typeMemory": { "D": 2, "A": 2, "T": 3, "N": 4 },
+  "orderWeights": {
+    "O": {
+      "PS": 0.45,
+      "IInv": 0.15,
+      "tradeOpen": 0.1,
+      "ally": 0.1,
+      "loss": -0.12,
+      "vol": -0.06,
+      "volMean": 0.2,
+      "volStd": 0.15
+    },
+    "I": {
+      "wpc": 0.3,
+      "civic": 0.2,
+      "tradeOpen": 0.15,
+      "rents": -0.1,
+      "media": -0.1,
+      "loss": -0.05,
+      "wpcMax": 5
+    }
+  },
+  "trade": {
+    "gapThresh": 0.05,
+    "volFrac": 0.66,
+    "guard": 5000,
+    "eaFrom": 0.01,
+    "eaTo": 0.015,
+    "psFrom": 0.002,
+    "psTo": 0.003,
+    "openFrom": 0.01,
+    "openTo": 0.01,
+    "tTechGain": 0.018
+  }
+}
