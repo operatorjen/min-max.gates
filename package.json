@@ -1,0 +1,17 @@
+{
+  "name": "min-max.liminal.gates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node solver.js"
+  },
+  "author": "operatorjen",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "redis": "^5.8.2"
+  }
+}

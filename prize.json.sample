@@ -1,0 +1,10 @@
+{
+  "MIN": [
+    "Thank you for playing easy mode.",
+    "Want to try again?"
+  ],
+  "MAX": [
+    "Thank you for playing hard mode.",
+    "Want to try again?"
+  ]
+}
